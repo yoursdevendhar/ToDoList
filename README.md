@@ -183,7 +183,3 @@ allow_origins=["https://your-frontend-domain.com"]
 
 ---
 
-
-- The `DELETE` endpoint does not return a confirmation message — consider adding `return {"message": "Task deleted successfully"}`.
-- `schemas.py` has a typo: `from_attribute=True` should be `from_attributes=True` (Pydantic v2).
-- `created_at` is being overwritten on every update — consider keeping the original creation timestamp.
